@@ -1,6 +1,6 @@
-# Challenge 5
+# チャレンジ5
 
-Look up the documentation for `std::vector` on cppreference.com to help answer this question, if needed. What is the output of the following code?
+次のコードの出力はどのようになりますか。必要に応じて、cppreference.comにある `std::vector` のドキュメントを参照してください。
 
 ```cpp
 #include <iostream>

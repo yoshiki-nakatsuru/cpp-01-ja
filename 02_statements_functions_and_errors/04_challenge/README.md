@@ -1,6 +1,6 @@
-# Challenge 4
+# チャレンジ4
 
-The following program is supposed to find the maximum of two numbers entered by the user but it's not working correctly. Debug it and fix it.
+ユーザーが入力した2つの数値のうち大きいほうの値を求めるプログラムがありますが、正しく動作しません。デバッグして修正してください。
 
 ```cpp
 #include <iostream>

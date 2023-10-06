@@ -1,6 +1,6 @@
-# Challenge 2
+# チャレンジ2
 
-Complete the function declaration and definition to create a recursive function factorial which takes an integer `n` and returns the factorial of `n`.
+再帰関数factorialの宣言と定義を完成させてください。この関数は整数型の引数 `n` をとり、`n` の階乗を返します。
 
 ```cpp
 ______ factorial(int n);

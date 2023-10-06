@@ -1,6 +1,6 @@
-# Challenge 1
+# チャレンジ1
 
-Given an integer variable `x`, write a code snippet to print its memory address. Then, create an integer pointer `p` that points to the address of `x`, and print the value stored at the address pointed to by `p`.
+整数型の変数 `x` があります。この変数のメモリアドレスを出力するコードスニペットを書いてください。次に、`x` のアドレスを指す整数型のポインタ `p` を作成し、`p` が指すアドレスに格納されている値を出力します。
 
 ```cpp
 #include <iostream>
@@ -8,6 +8,6 @@ Given an integer variable `x`, write a code snippet to print its memory address.
 int main() {
     int x = 42;
 
-    // TODO
+    // コードを入力してください
 }
 ```

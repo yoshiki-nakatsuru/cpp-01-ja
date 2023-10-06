@@ -1,3 +1,3 @@
-# Challenge 3
+# チャレンジ3
 
-Write a C++ function `power` which takes two arguments - `base` and `exponent`. `exponent` has a default value of 2. `power` returns the result of `base` raised to the power `exponent`. Call this function with a base of 3 and exponent of 4.
+C++の関数 `power` は、`base` と `exponent` という2つの引数をとります。`exponent` のデフォルト値は2で、`power` は `base` を `exponent` 回累乗した結果を返します。baseを3、exponentを4としてこの関数を呼び出してください。

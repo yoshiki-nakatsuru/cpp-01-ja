@@ -1,3 +1,3 @@
-# Challenge 1
+# チャレンジ1
 
-Write a program that asks for a number from the user and prints whether it is positive, negative, or zero.
+ユーザーに数値の入力を求め、その値が正、負、ゼロのどれであるかを表示するプログラムを作成してください。

@@ -1,6 +1,6 @@
-# Challenge 1
+# チャレンジ1
 
-Consider the following code:
+次のコードがあります。
 
 **temp_sensor.h**
 ```cpp
@@ -29,4 +29,4 @@ int main() {
 }
 ```
 
-Compile and run this program. Fix the code that is causing this error. You should only be adding code to fix the code, not removing code.
+このプログラムをコンパイルして実行し、エラーの原因となっているコードを修正してください。その際、コードを削除するのではなく、コードを追加して修正してください。

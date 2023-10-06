@@ -1,16 +1,16 @@
-# Challenge 3
+# チャレンジ3
 
-Create a function `double_elements` that takes a `std::vector<int>` as its argument and returns a new `std::vector<int>` with each element doubled. Then, use a range-based for loop to print the elements of both the original and the new vector.
+`std::vector<int>` を引数にとり、各要素の値を2倍にした新しい `std::vector<int>` を返す関数 `double_elements` を作成してください。次に、範囲ベースのforループを使用して、元のvectorと新しいvectorの両方の要素を出力します。
 
 ```cpp
 #include <iostream>
 #include <vector>
 
-// TODO
+// コードを入力してください
 
 int main() {
     std::vector<int> numbers = {1, 2, 3, 4, 5};
 
-    // TODO
+    // コードを入力してください
 }
 ```

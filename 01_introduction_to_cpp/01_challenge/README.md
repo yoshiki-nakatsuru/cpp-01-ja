@@ -1,9 +1,9 @@
-# Challenge 1
-Complete the program
+# チャレンジ1
+プログラムを完成させてください。
 
 ```cpp
 int main() {
-    //add any missing values, data types or other code to complete the program
+    // 不足している値、データ型、その他のコードを追加してプログラムを完成させてください。
 
     int myNumber = 
 

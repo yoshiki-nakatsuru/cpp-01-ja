@@ -1,6 +1,6 @@
-# Challenge 5
+# チャレンジ5
 
-The following program calculates the average of three numbers entered by the user. Test this program with different inputs. Is the program functioning correctly or not? If not, fix the program so that it gives the output you expect.
+ユーザーが入力した3つの数値の平均を計算するプログラムがあります。さまざまな値を入力してこのプログラムをテストしてください。プログラムは適切に動作しますか。適切に動作しない場合は、想定どおりの出力になるようにプログラムを修正してください。
 
 ```cpp
 #include <iostream>
