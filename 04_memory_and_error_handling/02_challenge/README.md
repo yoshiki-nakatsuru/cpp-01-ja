@@ -1,18 +1,18 @@
-# Challenge 2
+# チャレンジ2
 
-Create a function `swap_int` that takes two integer pointers as its arguments and swaps the values they point to. Call the function from the main function and verify that the values are swapped.
+2つの整数型のポインタを引数にとり、これらのポインタが指す値を入れ替える関数 `swap_int` を作成してください。次に、main関数からこの関数を呼び出し、値が入れ替わっていることを確認します。
 
 ```cpp
 #include <iostream>
 
-// TODO
+// コードを入力してください
 
 int main() {
     int a = 10;
     int b = 20;
 
     std::cout << "Before swap: a = " << a << ", b = " << b << std::endl;
-    // TODO
+    // コードを入力してください
     std::cout << "After swap: a = " << a << ", b = " << b << std::endl;
 }
 ```

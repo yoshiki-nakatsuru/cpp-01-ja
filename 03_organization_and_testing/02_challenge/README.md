@@ -1,3 +1,3 @@
-# Challenge 2
+# チャレンジ2
 
-There is a fourth type of storage duration since C++11. What is it? How would we properly declare an `int` variable `thread_data` such that it has this storage duration, and initialize it with the value 10?
+C++11以降では4番目のタイプの記憶域期間が追加されています。何という記憶域期間ですか。この記憶域期間を持つ `int` 型の変数 `thread_data` を宣言し、値10で初期化するには、どのようにしますか。

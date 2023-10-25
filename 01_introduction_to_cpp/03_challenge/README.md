@@ -1,14 +1,14 @@
-# Challenge 3
+# チャレンジ3
 
-In this Challenge, you will practice using fundamental C++ skills and keywords.
+このチャレンジでは、C++の基本的なスキルとキーワードの使い方を練習します。
 
-## Requirements
+## 必要な作業
 
-- Copy and Paste the below code into a new `.cpp` file.
-- Read the comments in the code, and follow the instructions complete the tasks.
-- Compile the code and execute it.
+- 次のコードをコピーして新しい `.cpp` ファイルに貼り付けます。
+- コード内のコメントに書かれた指示に沿ってタスクを完了します。
+- コードをコンパイルして実行します。
 
-If the code compiles and executes without errors, the challenge is complete.
+エラーが表示されることなくコードをコンパイルして実行できれば、このチャレンジは完了です。
 
 ```cpp
 #include <iostream>
@@ -16,10 +16,10 @@ If the code compiles and executes without errors, the challenge is complete.
 
 
 int main() {
-    // Complete everything in this program.
-    // Compile and execute the program without errors.
+    // このプログラムに書かれているすべての手順を完了してください。
+    // プログラムをコンパイルして実行してください (エラーが出ない状態にしてください)。
 
-    // Complete the following variables by using the correct types for the data.
+    // データに適した型を使用して、次の変数の宣言と初期化を完成させてください。
     pizzaSlices = 12;
     pi = 3.14159f;
     starsInTheUniverse = 1234567890LL;
@@ -30,38 +30,38 @@ int main() {
     thisIsAlsoTrue = thisIsTrue;
 
 
-    // On the next three lines, declare and initialize a new variable on each line. Each variable must be a different data type.
-    // variable #1 here
-    // variable #2 here
-    // variable #3 here
+    // 新しい変数を3つ宣言して初期化してください (3行で記述、1行につき1つの変数)。各変数のデータ型が異なるようにしてください。
+    // ここに変数1を記述
+    // ここに変数2を記述
+    // ここに変数3を記述
 
 
-    // Complete these arrays by giving them the correct data type.
+    // 正しいデータ型を指定して次の配列を完成させてください。
     myArray[] = {1, 2, 3, 4}
     anotherArray[] = {3.5, 1.2, 6.7}
 
 
-    // Make your own array on the next line. It should contain at least 5 numbers. The numbers can be any number data type, but they must all be the same data type.
+    // 独自の配列を作成し (1行で記述)、そこに5個以上の数値を格納します。数値のデータ型はどれでもかまいませんが、すべて同じデータ型にしてください。
 
 
-    // This array should not use `int` because it stores big numbers. What data type is better?
+    // この配列には大きな数値を格納するので、`int` 型は適していません。どのデータ型が適切ですか。
     bigNumbers[] = {500000, 700000, 800000}
 
 
-    // Use static_cast to change 'sizeOfCesiumAtom' to an int. Use 'static_cast' on the line after sizeOfCesiumAtom.
+    // static_castを使用して、`sizeOfCesiumAtom` をint型に変更してください。`static_cast` は、sizeOfCesiumAtomの次の行に記述してください。
     double sizeOfCesiumAtom = 0.267
 
 
-    // Make three constant variables. You can use any data type, but each variable must be a different data type.
-    // constant variable #1 here
-    // constant variable #2 here
-    // constant variable #3 here
+    // 3つの定数変数を作成してください。データ型はどれでもかまいませんが、各変数のデータ型が異なるようにしてください。
+    // ここに定数変数1を記述
+    // ここに定数変数2を記述
+    // ここに定数変数3を記述
 
 
-    // Optional challenge: use std::cout to print the new variable you made with static_cast, on the next line.
+    // オプションのチャレンジ: std::coutを使用して、static_castで作成した新しい変数を出力してください (1行で記述)。
 
 
-    // You don't need to change anything here. These lines are for checking program output.
+    // 次の行を変更する必要はありません。これらはプログラムの出力をチェックするためのものです。
     std::cout << pizzaSlices << std::endl;
     std::cout << pi << std::endl;
     std::cout << starsInTheUniverse << std::endl;
