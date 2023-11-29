@@ -52,7 +52,7 @@ GitHubのアカウント作成は簡単です。はじめに https://github.com/
 
 <img width="1728" alt="Screenshot 2023-11-24 at 13 00 21" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/cc80b97f-5086-4905-bfac-bc436feaa40b">
 
-デフォルト設定のまま進み、[Create folk] を押してフォークします。
+デフォルト設定のまま進み、[Create fork] を押してフォークします。
 
 <img width="1728" alt="Screenshot 2023-11-24 at 12 54 20" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/b65a776a-e2d9-47d4-8f8c-2faa79fa3478">
 
