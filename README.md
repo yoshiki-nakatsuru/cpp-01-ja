@@ -110,7 +110,7 @@ int main() {
 
 `git commit -m "Submit challenge for grading"`
 
-1つ目のコマンドでは、この新規ファイルを追跡するようGitに指示しています。2つ目のコマンドでは、“Submit challenge for grading” (採点用にチャレンジを送信) というメッセージを付けて保存しています。
+1つ目のコマンドでは、この新規ファイルを追跡するようGitに指示しています。2つ目のコマンドでは、“Submit challenge for grading” (採点用にチャレンジを提出) というメッセージを付けて保存しています。
 
 <img width="1840" alt="Screenshot 2023-11-24 at 13 20 19" src="https://github.com/ms1-learner/cpp-01-en/assets/5623716/f5b8b456-7db9-43e3-8d63-798f9ff132d3">
 
