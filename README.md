@@ -135,7 +135,7 @@ int main() {
 
 MS1の該当するチャレンジページに移動します。
 
-自分のGitHubリポジトリへのリンクをページの下部に追加して [Submit (提出)] をクリックしてください。
+自分のGitHubリポジトリへのリンクをページの下部に追加して [提出] をクリックしてください。
 
 <img width="1840" alt="Screenshot 2023-11-29 at 14 34 04" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/9201986a-f035-4bb3-8919-942d91dfb308">
 
