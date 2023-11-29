@@ -1,8 +1,8 @@
 # MS1チャレンジガイド
 
-チャレンジはMS1の重要なコンポーネントであり、チャレンジに取り組むことで学んだことを実際に活用できるようになります。各ユニットの最後に1つまたは複数のチャレンジが用意されています。これまでに学んだことを活用して取り組んでください。各チャレンジには一連の要件と手順があります。チャレンジの要件にはそのユニット以外で学んだスキルも含まれていることがあるため、カリキュラムに沿ってこれまで学んできたすべてのスキルを組み合わせて問題を解く必要があります。
+チャレンジはMS1の重要なコンポーネントであり、チャレンジに取り組むことで学んだことを実際に活用できるようになります。各ユニットの最後に1つまたは複数のチャレンジが用意されています。これまで学んだことにもとづいて取り組んでください。各チャレンジには一連の要件と手順があります。チャレンジの要件にはそのユニット以外で学んだスキルも含まれていることがあるため、カリキュラムに沿ってこれまで学んできたすべてのスキルを組み合わせて問題を解く必要があります。
 
-## チャレンジへのアクセス
+## チャレンジにアクセスする
 各ユニットの最後に、そのユニットの各チャレンジへのアクセス手順が書かれたページがあります。手順のページには、GitHub上のチャレンジリポジトリへのリンクと、リポジトリ内の特定のチャレンジへのパスが記載されています。
 
 一般にリンクの構造は次のようになっています。
@@ -11,57 +11,16 @@
 
 たとえば、日本語でC++学習パスを学んでいる場合、次のリンクでモジュール1のすべてのチャレンジにアクセスできます。
 
-`https://github.com/ms1-learner/cpp-01-jp`
+`https://github.com/ms1-learner/cpp-01-ja`
 
 手順のページに記載されている次のようなリポジトリのパスをたどると、各チャレンジにアクセスできます。
 
 `01_introduction_to_cpp/01_challenge`
 
-## ローカルマシンへのチャレンジのコピー
-チャレンジを提出するには、親リポジトリに移動してからリポジトリ全体をローカルマシンにクローンする必要があります。「クローン」とは、基本的にリポジトリをダウンロードしてデバイスで作業できるようにすることです。 
-
-例として、`https://github.com/ms1-learner/cpp-01-jp` にあるリポジトリのクローンを作成します。
-
-> GitとGitHubに慣れていなくても心配はいりません。このガイドには必要な手順が詳細に記載されています。GitとGitHubの詳細については、この学習パスに含まれているアジャイル開発モジュールで学びます。
-
-指定されたリンクからリポジトリに移動します。
-
-![challenge-submission-1](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-1.png)
-
-リポジトリのリンクをコピーします。
-
-![challenge-submission-2](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-2.png)
-
-コンピュータでターミナルを開き、リポジトリのダウンロード先となるデスクトップまたはフォルダに移動します。ターミナルからデスクトップに移動するには、`cd Desktop` と入力してからEnterキーまたはReturnキーを押します。
-
-![challenge-submission-3](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-3.png)
-
-デスクトップに移動した後、`git clone` の後に手順2でコピーしたリポジトリのリンクを入力し、EnterキーまたはReturnキーを押します。
-
-![challenge-submission-4](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-4.png)
-
-これでデスクトップにリポジトリのフォルダが表示されるようになります。Visual Studio Codeにこのフォルダをドラッグ&ドロップするか、Visual Studio Codeでこのフォルダを開きます。
-
-![challenge-submission-5](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-5.png)
-
-![challenge-submission-6](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-6.png)
-
-すべてのチャレンジはリポジトリ内のフォルダに含まれています。これらの各フォルダ名には関連するユニットの名前と番号が付いています。各ユニットには少なくとも1つ、最大5つのチャレンジがあります。 
-
-- ユニットのフォルダにチャレンジが1つだけある場合、このチャレンジの詳細はREADMEファイルに記載されています。
-
- ![challenge-submission-7](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-7.png)
-
--  ユニットのフォルダにチャレンジが複数ある場合、各チャレンジの詳細はサブフォルダ内のREADMEファイルに記載されています。
-
-![challenge-submission-8](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-8.png)
-
-## リモートリポジトリの作成
-チャレンジの解答を提出するために、受講者は各自でGitHubにリモートリポジトリを作成する必要があります。チャレンジのすべての解答をこれらのリポジトリに保存してください。また、インストラクターが解答を確認して採点できるよう、リポジトリにインストラクターを追加してください。
-
-### GitHubアカウントを作成する
-
+## GitHubアカウントを作成する
 > すでにGitHubのアカウントをお持ちの場合は、このセクションをスキップしてかまいません。
+
+チャレンジの解答を提出するために、受講者は各自でGitHubにリモートリポジトリを作成する必要があります。チャレンジのすべての解答をこれらのリポジトリに保存してください。また、インストラクターが解答を確認して採点できるよう、リポジトリにインストラクターを追加してください。
 
 GitHubのアカウント作成は簡単です。はじめに https://github.com/signup にアクセスします。
 
@@ -76,56 +35,55 @@ GitHubのアカウント作成は簡単です。はじめに https://github.com/
 
 ![challenge-submission-11](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-11.png)
 
-これでアカウントの作成は完了です。GitHubアカウントのダッシュボードが表示されます。
+これでアカウントの作成は完了です。GitHubアカウントのダッシュボードが表示されるはずです。
 
-### GitHubリポジトリを作成する
-> GitHubのパブリックリポジトリをすでに作成してある場合は、このセクションをスキップしてかまいません。
+## ローカルマシンにチャレンジをコピーする
+チャレンジを提出するには、親リポジトリに移動してからリポジトリをフォークし、さらにそれをローカルマシンにクローンする必要があります。
 
-プロファイルページ内の [Repositories] タブをクリックし、[New] ボタンをクリックします。
+例として、リポジトリ `https://github.com/ms1-learner/cpp-01-ja` をフォークしてクローンします。
 
-![challenge-submission-12](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-12.png)
+> GitとGitHubに慣れていなくても心配はいりません。このガイドには必要な手順が詳細に記載されています。GitとGitHubの詳細については、この学習パスに含まれているアジャイル開発モジュールで学びます。
 
-[Repository name] にリポジトリの名前を入力し、[Public] に設定します。
+指定されたリンクからリポジトリに移動します。
 
-> インストラクターが採点できるよう、リポジトリを [Public] に設定する必要があります。
+<img width="1840" alt="Screenshot 2023-11-29 at 14 20 53" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/bbc972f0-2905-499a-bdda-1a362073279e">
 
-![challenge-submission-13](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-13.png)
+リポジトリをフォークすると、自分のアカウントのリポジトリにコピーが作成されます。
 
-先ほどクローンしたリポジトリとこのGitHubリポジトリを接続するために、このリポジトリのリンクをコピーします。
+<img width="1840" alt="Screenshot 2023-11-29 at 14 21 58" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/dc3dde94-f3ec-4104-bdbd-9254758c2075">
 
-![challenge-submission-14](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-14.png)
+デフォルト設定のまま進み、[Create fork] をクリックしてフォークします。
 
-### GitHubリポジトリとローカルリポジトリを接続する
-クローンしたローカルリポジトリを新規作成したGitHubリポジトリに接続するには、複数のGitコマンドを実行する必要があります。
+<img width="1840" alt="Screenshot 2023-11-29 at 14 22 45" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/b49fa800-0580-4b72-9441-4de364bff834">
 
-> このガイドには必要なコマンドも記載されているので、Gitの仕組みを理解しておく必要はありません。
+フォークしたリポジトリのリンクをコピーします。
 
-ローカルリポジトリのフォルダに移動します。
+<img width="1840" alt="Screenshot 2023-11-29 at 14 23 48" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/2f034874-5a32-4ff2-a409-ca9592cad344">
 
-![challenge-submission-15](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-15.png)
+パソコンでターミナルを開き、リポジトリのクローン先となるフォルダに移動します。たとえば、既存のDocumentsフォルダに移動するには、`cd Documents` と入力してからEnterキーまたはReturnキーを押します。
 
+<img width="920" alt="Screenshot 2023-11-29 at 14 26 27" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/cb9da8e6-2ff5-46a0-80d3-383bec80d6f7">
 
+Documentsに移動した後、`git clone` に続けて先ほどコピーしたリポジトリのリンクを入力し、EnterキーまたはReturnキーを押します。
 
-現在のリポジトリは、GitHubのms1-learnerアカウントでアクセスしたリモートリポジトリをクローンしたものです。このリモートリポジトリにリンクしていた接続を、自分のアカウントで作成したGitHubリポジトリにリンクするよう変更します。
+<img width="920" alt="Screenshot 2023-11-29 at 14 26 38" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/42d744a7-cc48-4dd5-8c5e-f568d323f064">
 
-はじめに、現在のリモートリポジトリを確認します。コマンド `git remote -v` を入力してからEnterキーまたはReturnキーを押します。
+これでDocumentsフォルダにリポジトリがクローンされるはずです。Visual Studio Codeでこのリポジトリを開きます。
 
-![challenge-submission-16](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-16.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 28 20" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/331a66ec-963f-4f2f-b8d6-fc4e6e0022ab">
 
-これを変更するには、コマンド `git remote set-url origin` の後に自分のGitHubリポジトリのリンクを入力して実行します。
+<img width="1840" alt="Screenshot 2023-11-29 at 14 29 08" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/03f218d0-915b-4b1c-84a7-58665b63ac61">
 
-![challenge-submission-17](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-17.png)
+このリポジトリ内のフォルダにすべてのチャレンジが含まれています。これらの各フォルダ名には関連するユニットの名前と番号が付いています。
 
-上のスクリーンショットでわかるように、リモートリポジトリが `https://github.com/ms1-learner/cpp-01-jp.git` から `https://github.com/devwoven/cpp-challenges-01.git` に変更されました。
-
-ユーザー名 (devwoven) とリポジトリ名 (cpp-challenges-01.git) には、自分のユーザー名と選択したGitHubリポジトリの名前が表示されています。
+<img width="1840" alt="Screenshot 2023-11-29 at 14 29 40" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/93561841-5464-4535-b1ac-413068d8e791">
 
 これで、チャレンジに解答する準備が整いました。
 
-## チャレンジの解答と提出
+## チャレンジに取り組んで提出する
 チャレンジのREADMEファイルには、課題の説明だけが記載されていることもあれば、一部が欠けている未完成のコードが記載されていることも、解答のベースとなるコードが記載されていることもあります (チャレンジでこれらのコードを完成させていくことになります)。
 
-たとえば、ユニット1のチャレンジで2つの数値を加算するC++プログラムを作成する場合、解答は次のようになります。
+たとえば、チャレンジで2つの数値を加算するC++プログラムを作成する場合、解答は次のようになります。
 
 > 注: 例として記載しているだけなので、このコードを理解する必要はありません。
 
@@ -141,55 +99,58 @@ int main() {
     return 0;
 }
 ```
-このプログラムを `add.cpp` というファイルに保存したものとします。では、この解答をローカルリポジトリに保存してからリモートリポジトリにプッシュしましょう。
 
-### 解答を準備して評価用にプッシュする
+このプログラムを `main.cpp` というファイルに保存したものとします。では、この解答をローカルリポジトリに保存してからGitHubにプッシュしましょう。
 
-解答を準備してGitHubリポジトリにプッシュするには、まずこの解答をコミット (`commit`) する必要があります。コミットするには、ターミナルで次のコマンドを実行します。
+## 解答を準備して採点用にプッシュする
+
+解答を準備してGitHubリポジトリにプッシュするには、まずこの解答をコミット (commit) する必要があります。コミットするには、ターミナルで次のコマンドを実行します。
 
 `git add .`
 
-`git commit -m "My solution to challenge of unit 01"`
+`git commit -m "Submit challenge for grading"`
 
-1つ目のコマンドでは、この新規ファイルを追跡するようGitに指示しています。2つ目のコマンドでは、“My solution to challenge of unit 01” (ユニット1のチャレンジの解答) というメッセージを付けて保存しています。
+1つ目のコマンドでは、この新規ファイルを追跡するようGitに指示しています。2つ目のコマンドでは、“Submit challenge for grading” (採点用にチャレンジを提出) というメッセージを付けて保存しています。
 
-![challenge-submission-18](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-18.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 31 47" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/365cb8f3-71da-4ec3-ba67-fb96be5aefe5">
 
-解答をリモートリポジトリにプッシュする準備が整いました。では、プッシュする方法を説明します。
+解答をリモートリポジトリにプッシュする準備が整いました。
 
-次のコマンドを実行します。
+`git push`
 
-`git push --set-upstream origin main`
-
-> このコマンドの順番はとても重要です。 
-
-![challenge-submission-19](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-19.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 32 14" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/93cab46a-deb5-410b-80cf-48877cc60935">
 
 次に、GitHubリポジトリに移動します。変更が正常にプッシュされているはずです。
+
+>    GitHubアカウントのユーザー名とパスワードを入力するよう求められ、次のようなエラーが発生することがあります。
+>
+>   **fatal: Authentication failed for 'https://github.com/ms1-learner/cpp-01-ja.git/'**
+>
+>   これを解決するには、認証に個人用アクセストークンを使用する必要があります。この手順の詳細は、[GitHubの公式ドキュメント](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) (英語) に記載されています。
 
 ### MS1でリンクを送信する
 自分のGitHubリポジトリに解答をプッシュしたら、MS1のチャレンジでそのGitHubへのリンクを送信する必要があります。リポジトリへのリンクではなく、該当するチャレンジへのリンクを送信してください。
 
-例: `https://github.com/taro-yamada/cpp-01-jp/01_introduction_to_cpp/01_challenge`
+例: `https://github.com/abolinsky/cpp-01-ja/tree/main/01_introduction_to_cpp/01_challenge`
 
 MS1の該当するチャレンジページに移動します。
 
-自分のGitHubリポジトリへのリンクをページの下部に追加して [送信] をクリックしてください。
+自分のGitHubリポジトリへのリンクをページの下部に追加して [提出] をクリックしてください。
 
-![challenge-submission-20](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-20.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 34 04" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/9201986a-f035-4bb3-8919-942d91dfb308">
 
 ### 自分のリポジトリにインストラクターを追加する
 インストラクターが解答を確認して採点できるよう、インストラクターをコラボレーターとしてGitHubリポジトリに追加する必要があります。
 
 コラボレーターを追加するには、[Settings] ボタンをクリックします。
 
-![challenge-submission-21](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-21.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 36 54" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/0eabba29-8340-4d71-8984-a8778e6325f1">
 
 左側のパネルにある [Collaborators] をクリックします。 
 
 [Manage access] にある [Add people] をクリックし、担当インストラクターのGitHubのユーザー名またはメールアドレスを追加します。
 
-![challenge-submission-22](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-22.png)
+<img width="1840" alt="Screenshot 2023-11-29 at 14 37 17" src="https://github.com/ms1-learner/cpp-01-ja/assets/5623716/3d0871c9-2b66-4cfe-9627-270e304aeef5">
 
 これで解答がアップロードされ、インストラクターが確認できるようになりました。
 
