@@ -135,7 +135,7 @@ int main() {
 
 MS1の該当するチャレンジページに移動します。
 
-自分のGitHubリポジトリへのリンクをページの下部に追加して [送信] をクリックしてください。
+自分のGitHubリポジトリへのリンクをページの下部に追加して [Submit (送信)] をクリックしてください。
 
 ![challenge-submission-20](https://github.com/ms1-learner/cpp-01-en/blob/main/assets/challenge-submission-20.png)
 
