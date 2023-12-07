@@ -1,6 +1,6 @@
 #include <iostream>
 
-int dummy_main() {
+int main() {
     int myNumber = 1; 
 
     int anotherNumber = 5;
