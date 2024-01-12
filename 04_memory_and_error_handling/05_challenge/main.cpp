@@ -30,7 +30,9 @@ int main() {
     std::cout << "After adding elements: size: " << numbers.size() << ", capacity: " << numbers.capacity() << std::endl;
     numbers.push_back(9);
     std::cout << "After adding elements: size: " << numbers.size() << ", capacity: " << numbers.capacity() << std::endl;
+    ただし、この挙動は処理系に依存するので必ずしもvectorのcapacityの拡張挙動がこのようになるとは限らない。
     */
+
     //reserveで指示されたcapacityサイズが10で、現状のcapacityが4のため、capacityが10に拡張される。sizeは要素に変更がないため、3のまま変化なし。
     //もしcapacityが10以上の時にnumbers.reserve(10)を行ってもcapacityは変化しない。
     numbers.reserve(10);
